@@ -7,7 +7,7 @@ def setup(pencil):
     pencil.goto(-200,100)
     pencil.pendown()
 
-
+#lets draw the flake!
 def koch(pencil, size, order):
     if order == 0:
         pencil.forward(size)
